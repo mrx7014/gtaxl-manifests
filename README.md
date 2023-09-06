@@ -30,7 +30,7 @@ git clone https://github.com/mrx7014/gtaxl-manifests.git -b crdroid-12.1 .repo/l
 repo sync --force-sync --no-tags --no-clone-bundle -c
 ```
 
-- Finally, build as you like. For example, for a recovery-installable package for gtaxlwifi:
+- Finally, build as you like.
 ```
 . build/envsetup.sh
 lunch lineage_<device_codename>-userdebug
