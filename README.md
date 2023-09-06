@@ -1,4 +1,4 @@
-# Manifest for building Crdroid 12.1 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
+# Manifest for building CrDroid 12.1 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
 
 `gtaxlwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A 10.1" (2016), with model SM-T580.
 
