@@ -27,7 +27,7 @@ git clone https://github.com/mrx7014/gtaxl-manifests.git -b crdroid-12.1 .repo/l
 
 - Sync all of the repositories in manifests (including CrDroid manifests):
 ```
-repo sync --force-sync --no-tags --no-clone-bundle -c
+repo sync --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc --all)
 ```
 
 - Finally, build as you like.
